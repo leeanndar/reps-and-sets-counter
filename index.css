@@ -126,7 +126,7 @@ button {
     font-size: 3vw;
     position: absolute;
     width: 28vw;
-    margin: 5vw 0vw 5vw 5vw;
+    margin: 5vw 0vw 5vw 4vw;
     overflow-y: auto; /* Prevents overflow and keeps the layout stable */
     word-wrap: break-word; /* Ensures long words don't overflow */
 }
