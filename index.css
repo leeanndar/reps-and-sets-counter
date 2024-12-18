@@ -115,14 +115,18 @@ button {
     border: 3px solid #afc3cb;
 }
 
+#rep-counter, #set-counter {
+    width: 40vw;
+}
+
 #save-el, #save-sets-el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3vw;
     position: absolute;
     width: 28vw;
-    margin-top: 5vw;
-    margin-left: 0vw;
-    margin-right: 5vw;
+    margin: 5vw 0vw 5vw 0vw;
     overflow-y: auto; /* Prevents overflow and keeps the layout stable */
     word-wrap: break-word; /* Ensures long words don't overflow */
-
 }
