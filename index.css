@@ -119,14 +119,14 @@ button {
     width: 40vw;
 }
 
-#save-el, #save-sets-el {
+.prev-entries {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3vw;
     position: absolute;
     width: 28vw;
-    margin: 5vw 0vw 5vw 0vw;
+    margin: 5vw 0vw 5vw 5vw;
     overflow-y: auto; /* Prevents overflow and keeps the layout stable */
     word-wrap: break-word; /* Ensures long words don't overflow */
 }
